@@ -1,6 +1,0 @@
-[server]
-headless = true
-port = 8500
-
-[browser]
-serverPort = 8500

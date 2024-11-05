@@ -13,3 +13,17 @@ busque en internet cual pudo ser el motivo de la falta del deploy, a un proyecto
 dos veces y NADA, espero que la falla sea de mi computador, o que la persona encargada de mi revision pueda identificar la falla...
 
 Saludos.
+
+Acabo de hacer la implementacion del codigo "streamlit run app.py --server.port $PORT --server.enableCORS false" en la configuracion de RENDER,
+tambien hice las mejoras al archivo de app.py que hace referencia a agregar otro parametro al diagrama de dispersion, funciona en el local,
+pero sigue sin funcionar en RENDER.
+
+Ahora voy a probar agregando:
+
+[server]
+enableCORS = false
+port = 10000
+
+Al archivo de la carpeta .streamlit.
+
+Saludos.

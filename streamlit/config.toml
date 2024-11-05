@@ -1,0 +1,6 @@
+[server]
+enableCORS = false
+port = 10000
+
+[browser]
+serverPort = 10000
