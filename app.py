@@ -22,7 +22,7 @@ build_scatter = st.checkbox('Construir un diagrama de dispersion')
 if build_scatter:  # si la casilla de verificación está seleccionada
     st.write('Construir un diagrama de dispersion para la columna odómetro')
     # crear un diagrama de dispersion
-    fig = px.scatter(car_data, x="odometer")
+    fig = px.scatter(car_data, x="odometer", y="price")
 
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
